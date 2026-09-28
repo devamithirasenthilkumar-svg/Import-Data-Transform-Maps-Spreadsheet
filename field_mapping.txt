@@ -1,0 +1,13 @@
+SERVICE NOW TRANSFORM MAP - FIELD MAPPING
+
+Transform Map Name : Student Data Transform Map
+Source Table       : u_student_import
+Target Table       : u_student
+
+Source Field       | Target Field | Coalesce
+-------------------|--------------|---------
+u_name             | u_name       | No
+u_roll_no          | u_roll_no    | Yes
+u_department       | u_department | No
+u_email            | u_email      | No
+u_phone            | u_phone      | No

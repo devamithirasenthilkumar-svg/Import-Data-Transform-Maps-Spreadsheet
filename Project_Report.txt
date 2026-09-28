@@ -1,0 +1,37 @@
+PROJECT REPORT
+IMPORT DATA USING TRANSFORM MAPS
+
+1. INTRODUCTION
+This project demonstrates how spreadsheet data can be imported into ServiceNow using Import Sets and Transform Maps.
+
+2. OBJECTIVE
+The objective is to automate the transfer of student information from a CSV/Excel spreadsheet into a ServiceNow target table.
+
+3. MODULES
+- Spreadsheet Data
+- Import Set
+- Import Set Table
+- Transform Map
+- Field Mapping
+- Coalesce
+- Transform Scripts
+- Target Records
+
+4. INPUT
+Student spreadsheet containing Name, Roll No, Department, Email and Phone.
+
+5. PROCESS
+The spreadsheet is uploaded through System Import Sets. ServiceNow stores the uploaded data in an Import Set Table. A Transform Map maps source fields to the target Student table. Roll No is configured as a Coalesce field to avoid duplicate records.
+
+6. OUTPUT
+Student records are created or updated in the target table.
+
+7. ADVANTAGES
+- Reduces manual data entry
+- Supports bulk data import
+- Prevents duplicate records using Coalesce
+- Provides transformation and validation options
+- Easy to maintain
+
+8. CONCLUSION
+The project successfully demonstrates spreadsheet-to-ServiceNow data migration using Import Sets and Transform Maps.
